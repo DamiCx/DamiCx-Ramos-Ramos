@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Bebas-Regular";
+  src: url("../assets/fonts/Bebas-Regular.otf"); }
+
+h1 {
+  font-family: "Bebas-Regular"; }
+
+h2 {
+  font-family: "Bebas-Regular";
+  font-style: italic; }
+
+p, a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh; }
+
+.colorSvg, .h5ColorBlanco, .pColorBlanco {
+  color: antiquewhite; }
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+nav ul {
+  display: flex; }
+
+nav li a:hover {
+  background: brown;
+  color: antiquewhite; }
+
+li {
+  list-style-type: none;
+  padding: 10px; }
+
+@keyframes desplazar {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 18%;
+    width: 100%; } }
+
+.animacion {
+  animation-duration: 1s;
+  animation-name: desplazar; }
+
+.cardEffect:hover {
+  border: 1px solid brown;
+  box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
+  z-index: 500; }
+
+.animacionCard:hover {
+  transition: all 0.10s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white; }
+
+.degradado {
+  background-image: linear-gradient(to bottom, #00ffff, #000000); }
+
+.btn-primary, .btn-primary:hover {
+  border-color: brown; }
+
+body {
+  background-color: #00000093; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: antiquewhite;
+  margin-top: 20px; }
+
+.formularioContacto {
+  width: 460px;
+  height: auto;
+  margin: 15px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: white;
+  padding-left: 30px; }
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: brown;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px; }
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: brown;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px; }
+
+label {
+  display: block;
+  float: center; }
+
+button p {
+  color: #fff; }
+
+span {
+  color: brown; }
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e; }
+
+.tituloFormulario {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: brown;
+  margin: 10px; }
+
+.subtituloFormulario {
+  font-size: 10px;
+  padding-bottom: 30px;
+  color: #0e0e0e; }
+
+p {
+  font-size: 14px;
+  color: #0e0e0e; }
+
+::-webkit-input-placeholder {
+  color: #a8a8a8; }
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8; }
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848; }
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848; }
